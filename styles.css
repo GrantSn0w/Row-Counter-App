@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(teal, white);
+    background-image: url(./Images/station.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+div { 
+    border: 2px solid skyblue;
+    width: fit-content;
+    margin: 5px auto;
+    font-family: 'Seymour One', sans-serif;
+    padding: 60px;
+    border-radius: 39%;
+    background-image: url("./Images/counter2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    background-color: aliceblue;
+    width: fit-content;
+    color: black;
+    margin: 20px auto 0px auto;
+    border-radius: 10px;
+    
+}
+
+h2 {
+    font-size: 60px;
+    margin-top: 0;
+    color: red;
+    margin-bottom: 20px;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    color: red;
+    text-shadow: 0px 0px 15px black;
+    border-radius: 40px;
+    padding: 5px;
+
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+p{
+    color: green;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    margin: 30px auto 0px auto;
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 15px;
+}
